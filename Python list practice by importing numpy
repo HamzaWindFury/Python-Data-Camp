@@ -1,0 +1,175 @@
+# one_unit = 100
+# quantity = int(input("Enter the number of items purchased: "))
+# total_cost = quantity * one_unit
+# if total_cost > 1000:
+#     discount = total_cost * (10/100)
+#     total_cost -= discount
+#     print("The total cost is: ", total_cost)
+# else:
+#     print("The total cost is: ", total_cost)
+# starting_point = int(input("Enter a starting point: "))
+# ending_point = int(input("Enter a ending point: "))
+# number = int(input("Enter a random number: "))
+# find_in_range = range(starting_point, ending_point)
+# if number in find_in_range:
+#     print("number exists")
+# else:
+#     print("number not exists")
+# number = 0
+# i = 0
+# sum = 0
+# while number >= 0:
+#     number = int(input("Enter a number: "))
+#     if number >= 0:
+#         i = i + 1
+#         sum += number
+# print(sum)
+# print(i)
+# avg_total_number = sum / i
+# print("The average: ", avg_total_number)
+# number = int(input('Enter a number: '))
+# if number % 5 == 0 and number % 11 == 0:
+#     print("number divided by both 5 and 11")
+# else:
+#     print("number not divided by 5 and 11")
+# noinspection PyShadowingNames
+# def factorial_calc(num):
+#     while num != 0:
+#         for i in range(1, num):
+#             num = num * i
+#         print(num)
+#         num = num - 1
+#     i = 1
+#     while i < num:
+#         num = num * 1
+#         i += 1
+#     print(num)
+#
+#
+# num = int(input("Enter a number: "))
+# if num >= 0:
+# fact = factorial_calc(num)
+# def li_elements_multiply(li):
+#     multiply = 1
+#     for i in range(len(li)):
+#         multiply *= li[i]
+#     print(multiply)
+# li = [1, 4, 3, 6, 7, 8]
+# li_elements_multiply(li)
+# num1 = 63
+# num2 = 8
+# sum = (num1**2) + (num2**2)
+# print(sum)
+# power_result = num1 ** num2
+# product_result = num1 * num2
+# quotient = num1 / num2
+# reminder = num1 % num2
+# if power_result % num2 == 0 and product_result % num1 == 0:
+#     print(True)
+# else:
+#     print(False)
+# number_of_subjects = int(input("Enter number of subjects: "))
+# number_of_students = int(input("Enter number of students: "))
+# total_marks = 0
+# for i in range(number_of_students):
+#     roll_no = int(input("Enter roll no of student: "))
+#     for y in range(number_of_subjects):
+#         marks = int(input("Enter marks of subject: "))
+#         total_marks += marks
+#         avg = total_marks / number_of_subjects
+#     if avg > highest_avg
+#         print(avg)
+#     total_marks = 0
+#     avg =
+# name = "Hamza Wahab"
+# check = 0
+# for i in range(18):
+#    if(name[i] == " "):
+#        check = check + 1
+# check = check + 1
+# print("There are",check,"words")
+# name = str(input("Enter your name: "))
+# m = int(input("Enter marks of Maths: "))
+# p = int(input("Enter marks of Physics: "))
+# c = int(input("Enter marks of Chemistry: "))
+# total = m + p + c
+# if m >= 65 and p >= 55 and c >= 50 and total >= 180:
+#     print(name,"you are eligible")
+# elif m >= 65 and p >= 55 and c >= 50:
+#     print(name,"you doesn't meet the overall cut off")
+# elif total >= 180:
+#     print(name,"you doesn't meet the individual cut off")
+# else:
+#     print(name,"you are fail")
+# name = str(input("Enter your name: "))
+# m = int(input("Enter marks of Maths: "))
+# p = int(input("Enter marks of Physics: "))
+# c = int(input("Enter marks of Computer: "))
+# total = m + p + c
+# percentage = (total / 300) * 100
+# print("Name of Student:",name)
+# print("Marks of Maths:",m)
+# print("Marks of Physics:",p)
+# print("Name of Computer:",c)
+# print("Total Marks of Student:",total)
+# print("Percentage of Student:",percentage,"%")
+# if percentage <= 100 and percentage >= 80:
+#     print("Grade: First")
+# elif percentage <= 80 and percentage >= 60:
+#     print("Grade: Second")
+# elif percentage <=60 and percentage >= 40:
+#     print("Grade: Third")
+# else:
+#   print("Grade: Fourth")
+# import numpy as np
+# np_array = np.array([])
+# size = np_array.size
+# sum = 0
+# multiply = 1
+# for i in range(size):
+#     sum += np_array[i]
+# print("sum of array = " + str(sum))
+# for i in range(size):
+#     multiply *= np_array[i]
+# print("Multiplication of array = " + str(multiply))
+# num2 = [7, 8, 9, 10, 11, 12]
+# num1_np = np.array(num1)
+# num2_np = np.array(num2)
+# squaring = np.array(num1_np ** 2)
+# print(squaring[squaring < 25])
+# print(np.median((num1 + num2)))
+# print(num1[:5])
+# std = np.std(num1[:])
+# print("Standard Deviation = " + str(std))
+# corr = np.corrcoef(num1[1:])
+# print("Correlation = " + str(corr))
+# size = num1_np.size
+# print(size)
+# np_array = np.array(array1)
+# largest = 0
+# pos1 = 0
+# size = np_array.size
+# pos = 0
+# for i in range(size):
+#     if array1[i] > largest:
+#         largest = array1[i]
+#         pos = i + 1
+# smallest = largest
+# for j in range(size):
+#     if array1[j] < smallest:
+#         smallest = array1[j]
+#         pos1 = j + 1                            
+# print("The largest element is: " + str(largest) + " at position " + str(pos))
+# print("The smallest element is: " + str(smallest) + " at position " + str(pos1))
+# sum = 0
+# for i in range(size):
+#     sum += np_array[i]
+# print("sum of the array: " + str(sum))
+# largest = 0
+# for i in range(size):
+#     if largest < np_array[i] < np_array[6]:
+#         largest = np_array[i]
+# print(largest)
+array1 = ["Hamza", "Wahab", "Mirani"]
+sorting = array1.sort()
+print(sorting)
